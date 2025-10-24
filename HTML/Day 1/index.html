@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bookmarks</title>
+    <title>HTML OneShot</title>
+    <style>
+        table, tr, th, td{
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
     <!-- Heading Tags -->
@@ -23,5 +28,64 @@
     <a href="http://www.quora.com" target="_blank" rel="noopener noreferrer">Open Quora</a>&nbsp;&nbsp;
     <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">Open Instagram</a>&nbsp;&nbsp;
     <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">Open Facebook</a>
+    <hr><br> <!--Horizontal rule, Break Line-->
+
+    <!-- Image Tag -->
+    <img src="https://th.bing.com/th/id/OIP.bcOP7ZTpLAyyl3tKpdk5gAHaFB?w=289&h=196&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Train image" height="200">
+
+    <!-- Table Tag -->
+    <!-- thead (Table Header), tbody (Table Body), tfoot (Table Footer) -->
+    <!-- tr (table row), th (table heading), td (Table data) -->
+    <table>
+        <caption>DATA</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Fav Language</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Harry</td>
+                <td rowspan="2">Programmer</td>
+                <td>Javascript</td>
+            </tr>
+            <tr>
+                <td>Sam</td>
+                <td>Java</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Total</th>
+            <th colspan="2">2</th>
+        </tfoot>
+    </table>
+
+    <!-- List -->
+    <!-- Unordered List -->
+    <ul>
+        <li>Harry</li>
+        <li>Rohan</li>
+        <li>Shubham</li>
+    </ul>
+    <!-- Ordered List -->
+    <ol type="A">
+        <li>Harry</li>
+        <li>Rohan</li>
+        <li>Shubham</li>
+    </ol>
+    <!-- Description List -->
+    <!-- dt (Description Term), dd (Description Definition) -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JS</dt>
+        <dd>Javascript</dd>
+    </dl>
+    <br>
+    <a href="../Day 2/index.html">Page 2</a>
 </body>
 </html>

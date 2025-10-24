@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <!-- Form Tag -->
+    <form action="" method="post/get">
+        <h1>Form To Apply for Sigma Web Dev Course - TA</h1>
+
+        <!-- Input Tag -->
+        <div> 
+            <label for="username">Username  </label>
+            <input type="text" name="username" id="username" placeholder="Enter Your Name">
+        </div>
+
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="male">Female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+
+        <!-- textarea tag -->
+        <div>
+            <label for="comment">Enter Your Comment: </label><br>
+            <textarea name="comment" id="comment" rows="4" cols="50" placeholder="Enter your comment here..."></textarea>
+        </div>
+
+        <!-- Select Tag -->
+        <div>
+            <label for="fruits">Fruits </label>
+            <select name="fruits" id="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+            </select>
+        </div>
+
+        <!-- Fieldset Tag -->
+        <div>
+            <fieldset>
+                <legend>Personal Info</legend>
+                <label for="mobno">Mobile No </label>
+                <input type="number" name="mobno" id="mobno"><br>
+                <label for="emailid">Email Id </label>
+                <input type="email" name="emailid" id="emailid"><br>
+                <label for="password">Password </label>
+                <input type="password" name="password" id="password"><br>
+                <label for="dob">DOB </label>
+                <input type="date" name="dob" id="dob">
+            </fieldset>
+        </div>
+
+    </form>
+</body>
+</html>
