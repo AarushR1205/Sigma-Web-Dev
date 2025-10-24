@@ -1,0 +1,17 @@
+p{
+    background-color: aqua;
+}
+
+a{
+    background-color: rgb(197, 92, 92);
+}
+
+a:hover{
+    background-color: blue;
+    color: white;
+}
+
+.red{
+    color: red;
+    background-color: yellow;
+}
